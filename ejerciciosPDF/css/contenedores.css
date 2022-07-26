@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(114, 66, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0px auto;
+    width: 80%;
+}
+
+header {
+    background-color: rgba(241, 206, 8, 0.911);
+    width: 100%;
+    height: 100px;
+    text-align: center; /* centrado horizontal */
+    line-height: 100px; /* centrado vertical */
+    color: white;
+    border-bottom: dashed white;
+}
+
+#cuerpo {
+    width: calc(80% - 20px);
+    padding: 10px;
+    min-height: 700px;
+    float: left;
+    background: rgb(175, 160, 19);
+}
+
+aside {
+    width: calc(20% - 21px); /* px del padding + border */
+    padding: 10px;
+    float: left;
+    background: rgb(168, 126, 10);
+    min-height: 700px;
+    border-left: 1px solid white
+}
+
+footer {
+    color: white;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main {
+    text-indent: 1.5em; /* sangría */
+    line-height: 20px; /* interlineado */
+    padding-bottom: 10px; /* espaciado entre p*/
+    text-align: justify; /* texto justificado */
+}
+
+.detalles {
+    background: rgb(255, 123, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    height: 180px;
+    width: 600px;
+}
+
+.detalles p {
+    padding-top: 10px;
+    padding-left: 10px;
+    float:left;
+    width: 70%;
+    line-height: 18px;
+    cursor: none;
+    user-select: none;
+}
+
+.detalles img {
+    float:left;
+    width: 30%;
+    padding-top: 10px;
+    width: 160px;
+}
+
+.detalles p:hover {
+    color: rgb(250, 244, 244);
+}
+
+.detalles img:hover {
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}

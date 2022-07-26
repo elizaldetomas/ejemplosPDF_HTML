@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid rgb(30, 63, 114);
+    text-align: center;
+}
+
+th {
+    border: none;
+    padding: 8px;
+    background-color: #9ab5cf;
+    text-decoration: dashed;
+}
+
+td {
+    border-radius: 15%;
+    padding: 4px;
+    box-align: center;
+}

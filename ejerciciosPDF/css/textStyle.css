@@ -1,0 +1,14 @@
+li {
+    color: aqua;
+}
+
+.contenedorBoton{
+    border: rgb(163, 123, 13);
+    background-color: rgb(26, 26, 26);
+    color: rgb(163, 123, 13);
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 13px;
+    cursor: pointer;
+}
